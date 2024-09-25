@@ -3,7 +3,7 @@ class IPForm(forms.Form):
     # Define a form field for the IP address input
     ip_address = forms.CharField(
         # Label that will be displayed with the input field
-        label="Enter IP Address:",
+        label="Enter IP Address",
         # Maximum length of the input string, suitable for IPv6 addresses
         max_length=45,
         # help_text="Enter a valid IPv4 or IPv6 address.",
